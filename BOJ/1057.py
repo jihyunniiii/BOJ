@@ -14,13 +14,10 @@ n = 0
 check = 0
 
 while (1):
-    if 2 ** (n + 1) > N:
-        print("-1")
-        break
-
     n += 1
     jimin = (jimin + 1) // 2
     hansu = (hansu + 1) // 2
+    N = N / 2
 
     if jimin == hansu:
         print(n)
