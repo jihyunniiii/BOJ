@@ -20,7 +20,6 @@ for _ in range(M):
 num = 0
 for i in list(combinations(range(N), 3)):
     if M_list[i[0]][i[1]] and M_list[i[0]][i[2]] and M_list[i[1]][i[2]]:
-        print(i)
         num += 1
 
 print(num)
